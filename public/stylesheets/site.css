@@ -16407,7 +16407,7 @@ html,
       .demo-ios .wrapper .ios-img-container .icon-ios {
         background: url("http://iuic.info/assets/header/logo-41472bff4b0a6ae8b3d7bd258a983e10.png") -6px 50% no-repeat, #abccba;
         background-size: 130%;
-        border: 1px solid #ddd;
+        border: 1px solid #8c8c8c;
         border-radius: 4px;
         bottom: 30px;
         height: 50px;
@@ -16422,8 +16422,48 @@ html,
     display: none;
     height: 100%;
     width: 100%; }
+    html .app .static-panel,
+    .demo-ios .app .static-panel {
+      height: 20px;
+      position: static; }
+      html .app .static-panel .signal,
+      .demo-ios .app .static-panel .signal {
+        font-size: 8px;
+        left: 5px;
+        top: 5px;
+        position: absolute; }
+      html .app .static-panel .operator,
+      .demo-ios .app .static-panel .operator {
+        position: absolute;
+        left: 45px; }
+      html .app .static-panel .wi-fi,
+      .demo-ios .app .static-panel .wi-fi {
+        position: absolute;
+        left: 80px; }
+      html .app .static-panel .panel-top-button,
+      .demo-ios .app .static-panel .panel-top-button {
+        background: #8c8c8c;
+        border-radius: 10px;
+        height: 6px;
+        position: absolute;
+        top: 6px;
+        left: 120px;
+        width: 30px; }
+      html .app .static-panel .charge-level,
+      .demo-ios .app .static-panel .charge-level {
+        position: absolute;
+        right: 40px; }
+      html .app .static-panel .battery-icon,
+      .demo-ios .app .static-panel .battery-icon {
+        position: absolute;
+        right: 17px; }
+      html .app .static-panel .bolt,
+      .demo-ios .app .static-panel .bolt {
+        position: absolute;
+        right: 5px; }
     html .app .header-app,
     .demo-ios .app .header-app {
+      height: 30px;
       position: relative; }
       html .app .header-app .btn-bars,
       .demo-ios .app .header-app .btn-bars {
@@ -16462,3 +16502,34 @@ html,
         color: #0512c3;
         top: 2px;
         right: 2px; }
+    html .app .player-panel,
+    .demo-ios .app .player-panel {
+      border: 1px solid #8c8c8c;
+      border-left: none;
+      border-right: none;
+      height: 40px;
+      position: relative; }
+      html .app .player-panel .player-button,
+      .demo-ios .app .player-panel .player-button {
+        font-size: 16px;
+        height: 34px;
+        padding: 0;
+        position: absolute;
+        width: 34px;
+        background: transparent;
+        border-color: transparent;
+        font-size: 24px;
+        text-align: center;
+        top: 2px; }
+        html .app .player-panel .player-button.backward,
+        .demo-ios .app .player-panel .player-button.backward {
+          left: 15px; }
+        html .app .player-panel .player-button.pause,
+        .demo-ios .app .player-panel .player-button.pause {
+          left: 82px; }
+        html .app .player-panel .player-button.play,
+        .demo-ios .app .player-panel .player-button.play {
+          right: 78px; }
+        html .app .player-panel .player-button.forward,
+        .demo-ios .app .player-panel .player-button.forward {
+          right: 15px; }
