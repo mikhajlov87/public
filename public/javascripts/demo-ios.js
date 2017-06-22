@@ -5,6 +5,22 @@ $('.launch-btn').on('click', function () {
     if ( display.hasClass('on') ) {
         display.fadeIn();
         clock.fadeIn();
+        $('.icon-ios').on('click', function () {
+            $(this).animate({
+                width: '100%',
+                height: '100%',
+                top: 0,
+                left: 0
+            }, 300);
+            $('.clock-container').fadeOut();
+            $(this).css({
+                'background': '#f0f0f0',
+                'border': 'none',
+                'cursor': 'default'
+            });
+            $('.app').fadeIn();
+            $(this).unbind('click');
+        });
     } else {
         clock.fadeOut();
         $('.app').fadeOut();
@@ -51,17 +67,19 @@ setInterval( function () {
     }
 }, 1000 );
 
-$('.icon-ios').on('click', function () {
-    $(this).animate({
-        width: '100%',
-        height: '100%',
-        top: 0,
-        left: 0
-    }, 300);
-    $('.clock-container').fadeOut();
-    $(this).css({
-        'background': '#f0f0f0',
-        'cursor': 'default'
-    });
-    $('.app').fadeIn();
+$('#carousel-example-generic').find('img').on('click', function () {
+    var carousel = $('#carousel-example-generic'),
+        imgContainer = $('.image-click-container'),
+        value = $(this).attr('src');
+
+    $('.static-panel').fadeOut();
+    carousel.fadeOut();
+    imgContainer.fadeIn();
+    imgContainer.find('img').attr('src', value);
+});
+
+$('.image-click-container').on('click', function () {
+    $(this).fadeOut();
+    $('.static-panel').fadeIn();
+    $('#carousel-example-generic').fadeIn();
 });

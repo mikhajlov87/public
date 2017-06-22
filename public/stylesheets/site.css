@@ -16533,3 +16533,20 @@ html,
         html .app .player-panel .player-button.forward,
         .demo-ios .app .player-panel .player-button.forward {
           right: 15px; }
+    html .app .carousel .item,
+    .demo-ios .app .carousel .item {
+      overflow: hidden; }
+      html .app .carousel .item img,
+      .demo-ios .app .carousel .item img {
+        height: 150px;
+        max-width: 100%; }
+    html .app .image-click-container,
+    .demo-ios .app .image-click-container {
+      background: #090909;
+      display: none;
+      height: 100%;
+      width: 100%; }
+      html .app .image-click-container img,
+      .demo-ios .app .image-click-container img {
+        position: absolute;
+        top: 180px; }
