@@ -16502,6 +16502,9 @@ html,
         color: #0512c3;
         top: 2px;
         right: 2px; }
+    html .app.full-screen,
+    .demo-ios .app.full-screen {
+      background: #090909; }
     html .app .player-panel,
     .demo-ios .app .player-panel {
       border: 1px solid #8c8c8c;
@@ -16547,21 +16550,14 @@ html,
         .demo-ios .app .owl-carousel .item img {
           height: 150px;
           max-width: 100%; }
-    html .app .image-click-container,
-    .demo-ios .app .image-click-container {
+    html .app .full-screen,
+    .demo-ios .app .full-screen {
       background: #090909;
-      display: none;
       height: 100%;
       width: 100%; }
-      html .app .image-click-container img,
-      .demo-ios .app .image-click-container img {
-        height: 150px;
-        position: absolute;
-        top: 20px;
-        width: 268px; }
-        html .app .image-click-container img:hover,
-        .demo-ios .app .image-click-container img:hover {
-          cursor: pointer; }
+      html .app .full-screen img:hover,
+      .demo-ios .app .full-screen img:hover {
+        cursor: pointer; }
 
 /*
  *  Owl Carousel - Core

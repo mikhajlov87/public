@@ -77,18 +77,20 @@ $(document).ready(function () {
 
     carousel.find('img').mousedown(function (event) {
         var carousel = $('.owl-carousel'),
-            imgContainer = $('.image-click-container'),
-            value = $(this).attr('src');
-
-        var start = event.pageX, end;
+            start = event.pageX, end;
 
         $(this).mouseup(function (event) {
             end = event.pageX;
             if (start === end) {
-                $('.static-panel').hide();
-                carousel.hide();
-                imgContainer.fadeIn();
-                imgContainer.find('img').attr('src', value).animate({ top: '180px' });
+                if ( carousel.hasClass('full-screen') ) {
+                    $('.static-panel').show();
+                    $('.app').toggleClass('full-screen');
+                    carousel.toggleClass('full-screen').animate({ top: '0' });
+                } else {
+                    $('.static-panel').hide();
+                    $('.app').toggleClass('full-screen');
+                    carousel.toggleClass('full-screen').animate({ top: '160px' });
+                }
             }
         });
     });
