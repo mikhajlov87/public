@@ -8580,6 +8580,7 @@ header.top-site {
   min-height: 300px; }
 
 header.top-site .owl-carousel {
+  display: block;
   width: 100%;
   height: 300px;
   z-index: -1;
@@ -8918,9 +8919,13 @@ header.top-site .profile-wrapper .profile-header .controls .btn.into-profile:hov
 
 header.top-site .profile-wrapper .profile-header .user-avatar {
   display: block;
-  width: 85px;
+  height: 102px;
+  width: 95px;
   border-radius: 5px;
   overflow: hidden; }
+
+header.top-site .profile-wrapper .profile-header .user-avatar img {
+  height: 100%; }
 
 header.top-site .profile-wrapper .profile-header .nav > li > a {
   padding: 4px 5px;
@@ -9292,7 +9297,13 @@ header.top-site .widget {
   width: 100%;
   height: 165px; }
 
-header.top-site .datetime .time {
+header.top-site .datetime .time, header.top-site .datetime html .app .sidebar__header .header-date .line, html .app .sidebar__header .header-date header.top-site .datetime .line,
+header.top-site .datetime .demo-ios .app .sidebar__header .header-date .line,
+.demo-ios .app .sidebar__header .header-date header.top-site .datetime .line, header.top-site .datetime html .app .sidebar__header .currency .current, html .app .sidebar__header .currency header.top-site .datetime .current,
+header.top-site .datetime .demo-ios .app .sidebar__header .currency .current,
+.demo-ios .app .sidebar__header .currency header.top-site .datetime .current, header.top-site .datetime html .app .sidebar__header .currency .line, html .app .sidebar__header .currency header.top-site .datetime .line,
+header.top-site .datetime .demo-ios .app .sidebar__header .currency .line,
+.demo-ios .app .sidebar__header .currency header.top-site .datetime .line {
   line-height: 30px;
   margin-bottom: 16px;
   margin-top: 10px;
@@ -9442,20 +9453,38 @@ header.top-site.super-city .city-header .city-header-widgets .widget.datetime .h
   font-size: 12px;
   line-height: 17px; }
 
-header.top-site.super-city .city-header .city-header-widgets .widget.datetime .time {
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .time, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .header-date .line, html .app .sidebar__header .header-date header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .header-date .line,
+.demo-ios .app .sidebar__header .header-date header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .currency .current, html .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .current,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .currency .current,
+.demo-ios .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .current, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .currency .line, html .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .currency .line,
+.demo-ios .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line {
   line-height: 24px;
   margin-bottom: 4px;
   margin-top: 0;
   background-color: rgba(5, 77, 80, 0.6);
   border-radius: 4px; }
 
-header.top-site.super-city .city-header .city-header-widgets .widget.datetime .time span {
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .time span, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .header-date .line span, html .app .sidebar__header .header-date header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line span,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .header-date .line span,
+.demo-ios .app .sidebar__header .header-date header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line span, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .currency .current span, html .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .current span,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .currency .current span,
+.demo-ios .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .current span, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .currency .line span, html .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line span,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .currency .line span,
+.demo-ios .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line span {
   font-size: 18px;
   padding: 2px 2px;
   min-width: 30px;
   display: inline-block; }
 
-header.top-site.super-city .city-header .city-header-widgets .widget.datetime .time span.separate {
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .time span.separate, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .header-date .line span.separate, html .app .sidebar__header .header-date header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line span.separate,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .header-date .line span.separate,
+.demo-ios .app .sidebar__header .header-date header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line span.separate, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .currency .current span.separate, html .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .current span.separate,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .currency .current span.separate,
+.demo-ios .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .current span.separate, header.top-site.super-city .city-header .city-header-widgets .widget.datetime html .app .sidebar__header .currency .line span.separate, html .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line span.separate,
+header.top-site.super-city .city-header .city-header-widgets .widget.datetime .demo-ios .app .sidebar__header .currency .line span.separate,
+.demo-ios .app .sidebar__header .currency header.top-site.super-city .city-header .city-header-widgets .widget.datetime .line span.separate {
   min-width: 10px;
   padding: 0;
   margin: 0; }
@@ -11565,7 +11594,13 @@ ul.vocation-taglist > li .close {
   display: block;
   text-align: center; }
 
-.banner a .time {
+.banner a .time, .banner a html .app .sidebar__header .header-date .line, html .app .sidebar__header .header-date .banner a .line,
+.banner a .demo-ios .app .sidebar__header .header-date .line,
+.demo-ios .app .sidebar__header .header-date .banner a .line, .banner a html .app .sidebar__header .currency .current, html .app .sidebar__header .currency .banner a .current,
+.banner a .demo-ios .app .sidebar__header .currency .current,
+.demo-ios .app .sidebar__header .currency .banner a .current, .banner a html .app .sidebar__header .currency .line, html .app .sidebar__header .currency .banner a .line,
+.banner a .demo-ios .app .sidebar__header .currency .line,
+.demo-ios .app .sidebar__header .currency .banner a .line {
   font-size: 26px; }
 
 .open-event .banner a:hover {
@@ -16424,6 +16459,7 @@ html,
     width: 100%; }
     html .app .static-panel,
     .demo-ios .app .static-panel {
+      background: #d9edf7;
       height: 20px;
       position: static; }
       html .app .static-panel .signal,
@@ -16461,47 +16497,46 @@ html,
       .demo-ios .app .static-panel .bolt {
         position: absolute;
         right: 5px; }
+    html .app .btn-circle,
+    .demo-ios .app .btn-circle {
+      font-size: 16px;
+      height: 25px;
+      padding: 0;
+      position: absolute;
+      width: 25px;
+      border-radius: 50%;
+      border-color: #333;
+      background-color: transparent;
+      color: #333; }
+      html .app .btn-circle--top-left,
+      .demo-ios .app .btn-circle--top-left {
+        top: 2px;
+        left: 5px; }
+      html .app .btn-circle--top-right,
+      .demo-ios .app .btn-circle--top-right {
+        top: 2px;
+        right: 5px; }
     html .app .header-app,
     .demo-ios .app .header-app {
       height: 30px;
+      background: #d9edf7;
       position: relative; }
-      html .app .header-app .btn-bars,
-      .demo-ios .app .header-app .btn-bars {
-        font-size: 16px;
-        height: 25px;
-        padding: 0;
-        position: absolute;
-        width: 25px;
-        background-color: transparent;
-        border-color: transparent;
-        color: rgba(0, 0, 0, 0.5);
-        top: 2px;
-        left: 2px; }
-        html .app .header-app .btn-bars:hover,
-        .demo-ios .app .header-app .btn-bars:hover {
-          background-color: transparent;
-          border-color: transparent; }
       html .app .header-app .location-container,
       .demo-ios .app .header-app .location-container {
         top: 7px;
         position: absolute;
-        left: 70px; }
-        html .app .header-app .location-container span,
-        .demo-ios .app .header-app .location-container span {
-          color: #05c3c3;
-          padding: 0 3px; }
-      html .app .header-app .btn-circle,
-      .demo-ios .app .header-app .btn-circle {
-        font-size: 16px;
-        height: 25px;
-        padding: 0;
-        position: absolute;
-        width: 25px;
-        border-radius: 50%;
-        border-color: #0512c3;
-        color: #0512c3;
-        top: 2px;
-        right: 2px; }
+        left: 100px; }
+        html .app .header-app .location-container a,
+        .demo-ios .app .header-app .location-container a {
+          color: #333; }
+    html .app .app-page,
+    .demo-ios .app .app-page {
+      height: 428px;
+      overflow-y: scroll;
+      width: 100%; }
+      html .app .app-page::-webkit-scrollbar,
+      .demo-ios .app .app-page::-webkit-scrollbar {
+        width: 0; }
     html .app.full-screen,
     .demo-ios .app.full-screen {
       background: #090909; }
@@ -16558,6 +16593,61 @@ html,
       html .app .full-screen img:hover,
       .demo-ios .app .full-screen img:hover {
         cursor: pointer; }
+    html .app .public-date,
+    .demo-ios .app .public-date {
+      color: #00bd39;
+      height: 30px;
+      padding: 10px 0 0 5px;
+      overflow: hidden; }
+    html .app .photos-container,
+    .demo-ios .app .photos-container {
+      border-top: 1px solid #9d9d9d;
+      border-bottom: 1px solid #9d9d9d;
+      padding: 2px 0; }
+    html .app .sidebar__container,
+    .demo-ios .app .sidebar__container {
+      background: #9d9d9d;
+      height: 478px;
+      position: absolute;
+      top: 50px;
+      left: -269px;
+      width: 268px;
+      z-index: 100; }
+    html .app .sidebar__header .widget,
+    .demo-ios .app .sidebar__header .widget {
+      text-align: center; }
+    html .app .sidebar__header .separator,
+    .demo-ios .app .sidebar__header .separator {
+      background: #fafafa;
+      border-radius: 4px;
+      height: 4px;
+      margin: 4px 0; }
+    html .app .sidebar__header .widgets,
+    .demo-ios .app .sidebar__header .widgets {
+      display: inline-block;
+      padding: 4px;
+      width: 100px; }
+    html .app .sidebar__header .time, html .app .sidebar__header .header-date .line,
+    html .demo-ios .app .sidebar__header .header-date .line,
+    .demo-ios html .app .sidebar__header .header-date .line, html .app .sidebar__header .currency .current,
+    html .demo-ios .app .sidebar__header .currency .current,
+    .demo-ios html .app .sidebar__header .currency .current, html .app .sidebar__header .currency .line,
+    html .demo-ios .app .sidebar__header .currency .line,
+    .demo-ios html .app .sidebar__header .currency .line,
+    .demo-ios .app .sidebar__header .time,
+    .demo-ios .app .sidebar__header .header-date .line,
+    .demo-ios .app .sidebar__header .currency .current,
+    .demo-ios .app .sidebar__header .currency .line {
+      background: rgba(5, 77, 80, 0.6);
+      border-radius: 4px;
+      color: #fafafa;
+      display: inline-block;
+      margin-bottom: 2px;
+      padding: 0 4px;
+      width: 100%; }
+    html .app .sidebar__header .currency .col,
+    .demo-ios .app .sidebar__header .currency .col {
+      padding: 0 4px; }
 
 /*
  *  Owl Carousel - Core
