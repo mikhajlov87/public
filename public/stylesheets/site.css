@@ -15870,6 +15870,9 @@ body[class^="adminsinfo"] {
     height: auto;
     max-width: 100%; }
 
+.town_page_news_post .top-alert {
+  background: #d9edf7; }
+
 .main-footer {
   padding: 55px 0 45px;
   background-color: #bccecf;
@@ -16509,6 +16512,9 @@ html,
         html .app .header-app .location-container .location,
         .demo-ios .app .header-app .location-container .location {
           color: #054d50; }
+          html .app .header-app .location-container .location:hover,
+          .demo-ios .app .header-app .location-container .location:hover {
+            cursor: pointer; }
           html .app .header-app .location-container .location .city,
           .demo-ios .app .header-app .location-container .location .city {
             position: absolute;
@@ -16520,10 +16526,34 @@ html,
             top: 14px;
             left: 20px;
             width: 70px; }
+      html .app .header-app .search-container,
+      .demo-ios .app .header-app .search-container {
+        border: 1px solid #054d50;
+        border-radius: 4px;
+        display: none;
+        position: absolute;
+        overflow: hidden;
+        left: 68px;
+        width: 132px; }
+        html .app .header-app .search-container button,
+        .demo-ios .app .header-app .search-container button {
+          border: none;
+          background: transparent;
+          color: #054d50;
+          font-size: 12px;
+          width: 65px; }
+          html .app .header-app .search-container button.active,
+          .demo-ios .app .header-app .search-container button.active {
+            background-color: #054d50;
+            color: #d9edf7;
+            height: 22px; }
+          html .app .header-app .search-container button:active, html .app .header-app .search-container button:focus,
+          .demo-ios .app .header-app .search-container button:active,
+          .demo-ios .app .header-app .search-container button:focus {
+            outline: none; }
     html .app .footer-panel,
     .demo-ios .app .footer-panel {
       bottom: 0;
-      border-top: 1px solid #9d9d9d;
       background: #d9edf7;
       height: 49px;
       position: absolute;
@@ -16551,7 +16581,14 @@ html,
         right: 20px; }
       html .app .footer__button .image,
       .demo-ios .app .footer__button .image {
-        font-size: 22px; }
+        display: inline-block;
+        height: 25px;
+        width: 25px; }
+        html .app .footer__button .image--plus,
+        .demo-ios .app .footer__button .image--plus {
+          height: 40px;
+          padding-top: 2px;
+          width: 40px; }
       html .app .footer__button .text,
       .demo-ios .app .footer__button .text {
         bottom: -1px;
@@ -16567,6 +16604,56 @@ html,
       html .app .app-page::-webkit-scrollbar,
       .demo-ios .app .app-page::-webkit-scrollbar {
         width: 0; }
+    html .app .search-page,
+    .demo-ios .app .search-page {
+      height: 380px;
+      overflow-y: scroll;
+      width: 100%; }
+      html .app .search-page::-webkit-scrollbar,
+      .demo-ios .app .search-page::-webkit-scrollbar {
+        width: 0; }
+      html .app .search-page ul,
+      .demo-ios .app .search-page ul {
+        margin: 0;
+        padding: 35px 0 0 0; }
+      html .app .search-page li,
+      .demo-ios .app .search-page li {
+        border-bottom: 1px solid #9d9d9d;
+        list-style-type: none;
+        padding: 4px 10px;
+        width: 100%; }
+      html .app .search-page .search-field,
+      .demo-ios .app .search-page .search-field {
+        background: #f0f0f0;
+        border-bottom: 1px solid #9d9d9d;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        margin: 0;
+        padding: 5px 0;
+        width: 100%; }
+        html .app .search-page .search-field .placeholder-search,
+        .demo-ios .app .search-page .search-field .placeholder-search {
+          color: #054d50;
+          font-size: 14px;
+          position: absolute;
+          left: 95px;
+          top: 7px; }
+        html .app .search-page .search-field input,
+        .demo-ios .app .search-page .search-field input {
+          border: 1px solid #9d9d9d;
+          border-radius: 4px;
+          width: 132px; }
+          html .app .search-page .search-field input::-webkit-input-placeholder,
+          .demo-ios .app .search-page .search-field input::-webkit-input-placeholder {
+            color: #054d50;
+            font-weight: 400;
+            text-align: center; }
+          html .app .search-page .search-field input:-moz-placeholder,
+          .demo-ios .app .search-page .search-field input:-moz-placeholder {
+            color: #054d50;
+            font-weight: 400;
+            text-align: center; }
     html .app.full-screen,
     .demo-ios .app.full-screen {
       background: #090909; }

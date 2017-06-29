@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    var carousel = $('.app').find('.owl-carousel');
+    var carousel = $('.app').find('.owl-carousel'),
+        searchField = $('.search-field').find('input');
 
     carousel.owlCarousel({
         margin:2,
@@ -104,12 +105,28 @@ $(document).ready(function () {
     //     });
     // });
 
-    $('.bars-button').on('click', function () {
-        $(this).toggleClass('on');
-        if ( $(this).hasClass('on') ) {
-            $('.sidebar__container').animate({ left: '0' });
-        } else {
-            $('.sidebar__container').animate({ left: '-269px' });
+    $('.location').on('click', function () {
+        $(this).hide();
+        $('.app-page').hide();
+        $('.search-page').show();
+        $('.search-container').show();
+    });
+    
+    $('.search-container').find('button').on('click', function () {
+        if ( !( $(this).hasClass('active') ) ) {
+            $('.search-container').find('button').toggleClass('active');
+        }
+    });
+    
+    searchField.focus(function () {
+        $('.placeholder-search').hide();
+        $(this).attr('placeholder', '');
+    });
+
+    searchField.blur(function () {
+        if ( !( $(this).val() )) {
+            $('.placeholder-search').show();
+            $(this).attr('placeholder', 'Поиск');
         }
     });
 });
