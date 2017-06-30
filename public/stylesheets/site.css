@@ -16852,7 +16852,9 @@ html,
 .news_page header.top-site .country-city-viewer {
   z-index: initial; }
 .news_page header.top-site .profile-wrapper.active {
-  background: none; }
+  background: rgba(0, 0, 0, 0.2); }
+  .news_page header.top-site .profile-wrapper.active:hover {
+    background: rgba(0, 0, 0, 0.7) url(http://iuic.info/assets/overlay-pattern.png); }
 .news_page .image_fix-height {
   float: left;
   height: 150px;
@@ -16862,9 +16864,11 @@ html,
   display: block;
   position: relative;
   z-index: 2; }
-  .news_page .image__link:hover:after {
-    background: none;
-    border: 1px solid #fff; }
+  .news_page .image__link:hover {
+    z-index: 4; }
+    .news_page .image__link:hover:after {
+      background: none;
+      border: 1px solid #fff; }
   .news_page .image__link:after {
     display: block;
     content: '';
