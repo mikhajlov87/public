@@ -119,13 +119,15 @@ $(document).ready(function () {
     });
     
     searchField.focus(function () {
-        $('.placeholder-search').hide();
+        $('.placeholder-search').animate({ left: '5px' });
         $(this).attr('placeholder', '');
+        $('.keyboard').animate({ bottom: 0 });
     });
 
     searchField.blur(function () {
+        $('.keyboard').animate({ bottom: '-178px' });
         if ( !( $(this).val() )) {
-            $('.placeholder-search').show();
+            $('.placeholder-search').animate({ left: '95px' });
             $(this).attr('placeholder', 'Поиск');
         }
     });
