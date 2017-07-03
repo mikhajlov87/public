@@ -16,3 +16,12 @@ $('.country-name').on('click', function (e) {
     dropdown.text( $(this).text() );
     dropdown.prepend(img);
 });
+
+$('.responsive-link').on('click', function (event) {
+    if ( $(this).hasClass('active-link') ) {
+        event.preventDefault();
+    } else {
+        $('.responsive-link').removeClass('.active-link');
+        $(this).addClass('.active-link');
+    }
+});

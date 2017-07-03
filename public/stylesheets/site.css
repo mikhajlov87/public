@@ -15857,6 +15857,28 @@ body[class^="adminsinfo"] {
   border: 0;
   background-color: transparent; }
 
+.top-alert {
+  background: #d9edf7; }
+
+.responsive-link {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #00525e;
+  display: inline-block;
+  height: auto;
+  padding: 20px 40px;
+  margin: 0 5px;
+  width: calc(100% / 3 - 10px); }
+  .responsive-link.active-link {
+    border: 1px solid #00525e;
+    background: #d9edf7; }
+  .responsive-link:hover {
+    background: #d9edf7;
+    border: 1px solid #05c3c3;
+    text-decoration: none; }
+  .responsive-link:active {
+    text-decoration: none; }
+
 .town_page_news .panel.rubrificator__panel h4.heading.tab__heading.active, .town_page_news_post .panel.rubrificator__panel h4.heading.tab__heading.active {
   background-color: #fff;
   color: #054d50; }
@@ -15869,9 +15891,6 @@ body[class^="adminsinfo"] {
   .town_page_news .icon.heading__icon > img, .town_page_news_post .icon.heading__icon > img {
     height: auto;
     max-width: 100%; }
-
-.town_page_news_post .top-alert {
-  background: #d9edf7; }
 
 .main-footer {
   padding: 55px 0 45px;
