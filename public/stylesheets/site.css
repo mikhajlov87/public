@@ -9058,8 +9058,8 @@ header.top-site .list-group.country-info-view .list-group-item .title {
 .sites_page .top-site .profile-wrapper .btn.make-profile, .sites_page_in .top-site .profile-wrapper .btn.make-profile, .sites_page header.top-site .profile-wrapper .make-profile.login-by-mail, .sites_page_in header.top-site .profile-wrapper .make-profile.login-by-mail {
   padding: 30px 5px; }
 .sites_page .top-site .country-city-viewer .country-info-wrapper, .sites_page_in .top-site .country-city-viewer .country-info-wrapper {
-  min-width: 330px;
-  margin-left: -175px; }
+  min-width: 450px;
+  margin-left: -225px; }
   .sites_page .top-site .country-city-viewer .country-info-wrapper .countries-wrapper, .sites_page_in .top-site .country-city-viewer .country-info-wrapper .countries-wrapper {
     float: left;
     position: initial; }
@@ -9069,19 +9069,6 @@ header.top-site .list-group.country-info-view .list-group-item .title {
 
 .town_page_sites .top-site .profile-wrapper .btn.make-profile, .town_page_sites header.top-site .profile-wrapper .make-profile.login-by-mail {
   padding: 30px 5px; }
-
-.sites_page_in .dropdown-img {
-  height: 20px;
-  margin-right: 5px;
-  width: 20px; }
-.sites_page_in .top-site button.btn.dropdown-toggle.top.text-left, .sites_page_in header.top-site .profile-wrapper button.dropdown-toggle.top.text-left.login-by-mail {
-  text-align: left; }
-.sites_page_in .top-site .country-city-viewer .country-info-wrapper {
-  min-width: 330px;
-  margin-left: -175px; }
-  .sites_page_in .top-site .country-city-viewer .country-info-wrapper .countries-wrapper {
-    float: left;
-    position: initial; }
 
 .news_page_in .dropdown-img {
   height: 20px;
@@ -10612,8 +10599,8 @@ header.top-site .profile-wrapper .modal-flat .input-group-sm > .input-group-btn 
   color: #f00; }
 
 .main-logo {
-  width: 164px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 210px; }
 
 .about-project .nav-tabs {
   border-bottom: 1px solid #00525e; }
@@ -16865,43 +16852,3 @@ html,
   z-index: 1;
   height: 100%;
   width: 100%; }
-
-.news_page header.top-site .owl-carousel {
-  z-index: 1; }
-.news_page header.top-site .country-city-viewer {
-  z-index: initial; }
-.news_page header.top-site .profile-wrapper.active {
-  background: rgba(0, 0, 0, 0.2); }
-  .news_page header.top-site .profile-wrapper.active:hover {
-    background: rgba(0, 0, 0, 0.7) url(http://iuic.info/assets/overlay-pattern.png); }
-.news_page .image_fix-height {
-  float: left;
-  height: 150px;
-  overflow: hidden;
-  width: calc(100% / 5); }
-.news_page .image__link {
-  display: block;
-  position: relative;
-  z-index: 2; }
-  .news_page .image__link:hover {
-    z-index: 4; }
-    .news_page .image__link:hover:after {
-      background: none;
-      border: 1px solid #fff; }
-  .news_page .image__link:after {
-    display: block;
-    content: '';
-    width: 100%;
-    height: 150px;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.2) url(http://iuic.info/assets/overlay-pattern.png);
-    top: 0;
-    left: 0; }
-.news_page .fix-height {
-  height: 150px;
-  width: auto; }
-.news_page .image__town-name {
-  bottom: 0;
-  color: #fafafa;
-  position: absolute;
-  right: 5px; }
