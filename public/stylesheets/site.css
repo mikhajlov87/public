@@ -10516,7 +10516,8 @@ header.top-site .profile-wrapper .modal-flat .input-group-sm > .input-group-btn 
   border: 1px solid transparent;
   font-size: 16px;
   font-weight: bold;
-  background-color: transparent; }
+  background-color: transparent;
+  margin: 0 10px 0 5px; }
 
 .top-alert-modal:hover,
 .top-alert-modal:active,
