@@ -165,6 +165,9 @@ ul.category-selection .checkbox.circle input[type="radio"] + label:hover {
   box-shadow: none;
   margin-bottom: 15px; }
 
+.panel.specialist-card .controls .message {
+  color: #bccecf; }
+
 .specialist-list .col-card:nth-child(3n) .specialist-card {
   /*margin-right: 0px;*/ }
 
@@ -628,20 +631,14 @@ h3 .btn-gradient-gold {
     box-shadow: none;
     -webkit-appearance: none;
     appearance: none; } }
-.landing_page .panel.specialist-card:hover {
+.landing_page .panel.specialist-card:hover, .landing_page_in .panel.specialist-card:hover {
   cursor: pointer;
-  border: 1px solid #05c3c3; }
-  .landing_page .panel.specialist-card:hover .avatar .thumbnail {
-    background-color: #05c3c3; }
-
-.landing_page_in .panel.specialist-card:hover {
-  cursor: pointer;
-  border: 1px solid #05c3c3; }
-  .landing_page_in .panel.specialist-card:hover .avatar .thumbnail {
-    background-color: #05c3c3; }
+  border: 1px solid #bccecf; }
+  .landing_page .panel.specialist-card:hover .avatar .thumbnail, .landing_page_in .panel.specialist-card:hover .avatar .thumbnail {
+    background-color: #bccecf; }
 
 .town_page_job .panel.specialist-card:hover {
   cursor: pointer;
-  border: 1px solid #05c3c3; }
+  border: 1px solid #bccecf; }
   .town_page_job .panel.specialist-card:hover .avatar .thumbnail {
-    background-color: #05c3c3; }
+    background-color: #bccecf; }

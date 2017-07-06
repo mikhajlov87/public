@@ -9937,7 +9937,7 @@ h3.column-title .btn-help:hover {
   top: 0;
   width: 100%;
   height: 75px;
-  background: url("../images/overlay-pattern-lightgreen.png") #fff;
+  background: #d9edf7;
   z-index: 0; }
 
 .thumbnail.post > p {
@@ -10481,8 +10481,7 @@ header.top-site .profile-wrapper .modal-flat .input-group-sm > .input-group-btn 
   visibility: hidden; }
 
 .top-column {
-  width: 19%;
-  padding: 0 1.6% 0 0;
+  margin-left: 20px;
   text-align: justify; }
 
 .top-column-link {
@@ -10517,7 +10516,7 @@ header.top-site .profile-wrapper .modal-flat .input-group-sm > .input-group-btn 
   font-size: 16px;
   font-weight: bold;
   background-color: transparent;
-  margin: 0 10px 0 5px; }
+  margin: 0 10px; }
 
 .top-alert-modal:hover,
 .top-alert-modal:active,
@@ -10603,6 +10602,40 @@ header.top-site .profile-wrapper .modal-flat .input-group-sm > .input-group-btn 
   margin: 0 auto;
   width: 210px; }
 
+.top-column:hover .main-logo__all-projects {
+  border: 1px solid #555;
+  transition: all 0.25s ease-in;
+  max-height: 300px;
+  padding: 5px; }
+
+.main-logo__all-projects {
+  background: #fafafa;
+  border-radius: 4px;
+  max-height: 0;
+  padding: 0 5px;
+  position: absolute;
+  transition: all 0.15s ease-out;
+  overflow: hidden;
+  z-index: 2; }
+
+.responsive-link {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #00525e;
+  display: inline-block;
+  height: auto;
+  padding: 5px;
+  margin: 0 5px;
+  width: 200px; }
+  .responsive-link .img-responsive {
+    padding: 5px 0 10px 0; }
+  .responsive-link:hover {
+    background: #d9edf7;
+    border: 1px solid #05c3c3;
+    text-decoration: none; }
+  .responsive-link:active {
+    text-decoration: none; }
+
 .about-project .nav-tabs {
   border-bottom: 1px solid #00525e; }
 
@@ -10643,13 +10676,6 @@ header.top-site .profile-wrapper .modal-flat .input-group-sm > .input-group-btn 
 
 .about-project .tab-content p {
   text-align: justify; }
-
-.main-logo__caption {
-  color: rgba(0, 0, 0, 0.2);
-  font: 400 1.7em 'Roboto', sans-serif;
-  left: 19%;
-  top: 3px;
-  position: absolute; }
 
 .town_page_sites .thumbnail.post .main-img {
   padding-top: 75px; }
@@ -13657,6 +13683,9 @@ ul.category-selection .checkbox.circle input[type="radio"] + label:hover {
   box-shadow: none;
   margin-bottom: 15px; }
 
+.panel.specialist-card .controls .message {
+  color: #bccecf; }
+
 .specialist-list .col-card:nth-child(3n) .specialist-card {
   /*margin-right: 0px;*/ }
 
@@ -14126,21 +14155,15 @@ header.top-site .profile-wrapper .modal-flat .input-group-sm > .input-group-btn 
     appearance: none; } }
 .landing_page .panel.specialist-card:hover, .landing_page_in .panel.specialist-card:hover, .town_page_job .panel.specialist-card:hover {
   cursor: pointer;
-  border: 1px solid #05c3c3; }
+  border: 1px solid #bccecf; }
   .landing_page .panel.specialist-card:hover .avatar .thumbnail, .landing_page_in .panel.specialist-card:hover .avatar .thumbnail, .town_page_job .panel.specialist-card:hover .avatar .thumbnail {
-    background-color: #05c3c3; }
-
-.landing_page_in .panel.specialist-card:hover {
-  cursor: pointer;
-  border: 1px solid #05c3c3; }
-  .landing_page_in .panel.specialist-card:hover .avatar .thumbnail {
-    background-color: #05c3c3; }
+    background-color: #bccecf; }
 
 .town_page_job .panel.specialist-card:hover {
   cursor: pointer;
-  border: 1px solid #05c3c3; }
+  border: 1px solid #bccecf; }
   .town_page_job .panel.specialist-card:hover .avatar .thumbnail {
-    background-color: #05c3c3; }
+    background-color: #bccecf; }
 
 /*
 
@@ -15847,25 +15870,6 @@ body[class^="adminsinfo"] {
 
 .top-alert {
   background: #d9edf7; }
-
-.responsive-link {
-  border: 1px solid transparent;
-  border-radius: 4px;
-  color: #00525e;
-  display: inline-block;
-  height: auto;
-  padding: 20px 40px;
-  margin: 0 5px;
-  width: calc(100% / 3 - 10px); }
-  .responsive-link.active-link {
-    border: 1px solid #00525e;
-    background: #d9edf7; }
-  .responsive-link:hover {
-    background: #d9edf7;
-    border: 1px solid #05c3c3;
-    text-decoration: none; }
-  .responsive-link:active {
-    text-decoration: none; }
 
 .town_page_news .panel.rubrificator__panel h4.heading.tab__heading.active, .town_page_news_post .panel.rubrificator__panel h4.heading.tab__heading.active {
   background-color: #fff;
