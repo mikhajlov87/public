@@ -8920,7 +8920,7 @@ header.top-site .profile-wrapper .profile-header .controls .btn.into-profile:hov
 header.top-site .profile-wrapper .profile-header .user-avatar {
   display: block;
   height: 102px;
-  width: 95px;
+  width: 94px;
   border-radius: 5px;
   overflow: hidden; }
 
@@ -14429,8 +14429,7 @@ body.action-site {
   text-transform: uppercase;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-color: #fff;
-  background-image: url("http://iuic.info/assets/overlay-pattern.png"); }
+  background: #d9edf7; }
 
 .site .header .controls {
   position: absolute;
