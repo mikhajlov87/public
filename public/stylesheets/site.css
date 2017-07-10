@@ -9067,6 +9067,9 @@ header.top-site .list-group.country-info-view .list-group-item .title {
 .town_page_news_post .top-site .profile-wrapper .btn.make-profile, .town_page_news_post header.top-site .profile-wrapper .make-profile.login-by-mail {
   padding: 30px 5px; }
 
+.town_page_audio_post .top-site .profile-wrapper .btn.make-profile, .town_page_audio_post header.top-site .profile-wrapper .make-profile.login-by-mail {
+  padding: 30px 5px; }
+
 .town_page_sites .top-site .profile-wrapper .btn.make-profile, .town_page_sites header.top-site .profile-wrapper .make-profile.login-by-mail {
   padding: 30px 5px; }
 
@@ -10062,6 +10065,21 @@ h3.column-title .btn-help:hover {
 
 .thumbnail.post .body {
   padding: 0 10px; }
+
+.audio-player audio {
+  width: 100%; }
+
+.thumbnail.post .body .audio button {
+  background: transparent;
+  border: 2px solid #054d50;
+  border-radius: 50%;
+  color: #054d50;
+  height: 35px;
+  width: 35px; }
+  .thumbnail.post .body .audio button:active {
+    outline: none; }
+  .thumbnail.post .body .audio button:focus {
+    outline: none; }
 
 .thumbnail.post .avatar-img {
   width: 35px;
