@@ -10067,7 +10067,11 @@ h3.column-title .btn-help:hover {
   padding: 0 10px; }
 
 .audio-player audio {
+  padding: 15px 0;
   width: 100%; }
+
+.thumbnail.element.post.article audio {
+  max-width: 100%; }
 
 .thumbnail.post .body .audio button {
   background: transparent;
@@ -15910,6 +15914,19 @@ body[class^="adminsinfo"] {
 .town_page_news .icon.heading__icon, .town_page_news_post .icon.heading__icon {
   width: 20px; }
   .town_page_news .icon.heading__icon > img, .town_page_news_post .icon.heading__icon > img {
+    height: auto;
+    max-width: 100%; }
+
+.town_page_audio_post .panel.rubrificator__panel h4.heading.tab__heading.active {
+  background-color: #fff;
+  color: #054d50; }
+  .town_page_audio_post .panel.rubrificator__panel h4.heading.tab__heading.active .heading__icon {
+    color: inherit; }
+  .town_page_audio_post .panel.rubrificator__panel h4.heading.tab__heading.active .control-link.heading__control-link {
+    color: inherit; }
+.town_page_audio_post .icon.heading__icon {
+  width: 20px; }
+  .town_page_audio_post .icon.heading__icon > img {
     height: auto;
     max-width: 100%; }
 
