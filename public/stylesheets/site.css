@@ -10081,6 +10081,19 @@ h3.column-title .btn-help:hover {
   .thumbnail.post .body .audio button:focus {
     outline: none; }
 
+.relative .geolocation {
+  color: #fafafa;
+  position: absolute;
+  left: 15px;
+  top: 10px; }
+
+.relative .create-date {
+  color: #fafafa;
+  bottom: 10px;
+  font-size: 12px;
+  right: 15px;
+  position: absolute; }
+
 .thumbnail.post .avatar-img {
   width: 35px;
   border-radius: 50%; }
@@ -10694,6 +10707,12 @@ header.top-site .profile-wrapper .modal-flat .input-group-sm > .input-group-btn 
 
 .about-project .tab-content p {
   text-align: justify; }
+
+.full-width {
+  width: 100%; }
+
+.relative {
+  position: relative; }
 
 .town_page_sites .thumbnail.post .main-img {
   padding-top: 75px; }
