@@ -10070,8 +10070,13 @@ h3.column-title .btn-help:hover {
   padding: 15px 0;
   width: 100%; }
 
-.thumbnail.element.post.article audio {
-  max-width: 100%; }
+.thumbnail.element.post .play-button__background {
+  background: url("../images/play-button.png") no-repeat center center;
+  height: calc(100% - 30px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
 .thumbnail.post .body .audio button {
   background: transparent;
@@ -16903,3 +16908,30 @@ html,
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+.town_page_audio_post .main-article__title {
+  color: #054d50; }
+.town_page_audio_post .main-article__play-button {
+  float: right;
+  margin: 15px 25px 0 0; }
+  .town_page_audio_post .main-article__play-button:hover {
+    cursor: pointer; }
+.town_page_audio_post .infographics__item {
+  color: #054d50;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  width: calc(100% / 4); }
+.town_page_audio_post .info-panel__infographics {
+  text-align: center; }
+.town_page_audio_post .main-article__content {
+  font-size: 12px; }
+.town_page_audio_post .main-article__picture {
+  margin: 0 10px 0 0;
+  position: initial;
+  width: 30%; }
+.town_page_audio_post .main-article__address {
+  color: #054d50;
+  margin: 20px 0; }
+.town_page_audio_post .main-article__time {
+  color: #9FADB4; }

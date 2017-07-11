@@ -13448,13 +13448,15 @@ $(document).ready(function() {
 		offset: 300
 	})
 });
-$('.audio').find('button').on('click', function () {
-    if ( $(this).find('i').hasClass('fa-play') ) {
-        $(this).find('i').removeClass('fa-play');
-        $(this).find('i').addClass('fa-pause');
+$('.main-article__play-button').on('click', function () {
+    var img = $(this).find('img');
+    var audio = $('#audio');
+    if (img.attr('src') === 'images/play-button.png') {
+        img.attr('src', 'images/pause-button.png');
+        audio.play();
     } else {
-        $(this).find('i').removeClass('fa-pause');
-        $(this).find('i').addClass('fa-play');
+        img.attr('src', 'images/play-button.png');
+        audio.pause();
     }
 });
 $('.panel.rubrificator__panel').on('click', function () {
