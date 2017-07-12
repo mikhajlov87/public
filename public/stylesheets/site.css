@@ -9920,13 +9920,21 @@ h3.column-title .btn-help:hover {
   display: block;
   height: 100%; }
 
-.thumbnail.post {
+.thumbnail.element.post {
   position: relative;
   border: 1px solid #f0f0f0;
   border-radius: 0;
   padding: 0; }
-  .thumbnail.post:hover {
-    border: 1px solid #05c3c3; }
+  .thumbnail.element.post:hover {
+    border: 1px solid #bccecf; }
+    .thumbnail.element.post:hover .play-button__background {
+      -webkit-transition: opacity 0.5s ease-in;
+      -moz-transition: opacity 0.5s ease-in;
+      -ms-transition: opacity 0.5s ease-in;
+      -o-transition: opacity 0.5s ease-in;
+      transition: opacity 0.5s ease-in;
+      opacity: 1;
+      z-index: 2; }
 
 .thumbnail.site {
   border: 1px solid #f0f0f0;
@@ -10072,10 +10080,12 @@ h3.column-title .btn-help:hover {
 
 .thumbnail.element.post .play-button__background {
   background: url("../images/play-button.png") no-repeat center center;
-  height: calc(100% - 30px);
+  background-size: 75px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.6;
   width: 100%; }
 
 .thumbnail.post .body .audio button {
@@ -16913,25 +16923,20 @@ html,
   color: #054d50; }
 .town_page_audio_post .main-article__play-button {
   float: right;
-  margin: 15px 25px 0 0; }
+  margin: 18px 45px 0 0; }
   .town_page_audio_post .main-article__play-button:hover {
     cursor: pointer; }
-.town_page_audio_post .infographics__item {
-  color: #054d50;
-  margin: 0;
-  text-align: center;
-  display: inline-block;
-  width: calc(100% / 4); }
-.town_page_audio_post .info-panel__infographics {
-  text-align: center; }
 .town_page_audio_post .main-article__content {
-  font-size: 12px; }
+  font-size: 12px;
+  padding: 0; }
 .town_page_audio_post .main-article__picture {
   margin: 0 10px 0 0;
   position: initial;
   width: 30%; }
 .town_page_audio_post .main-article__address {
   color: #054d50;
-  margin: 20px 0; }
+  margin: 23px 0; }
 .town_page_audio_post .main-article__time {
-  color: #9FADB4; }
+  color: #9FADB4;
+  display: block;
+  margin: 23px 0; }
