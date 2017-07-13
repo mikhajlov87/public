@@ -8854,9 +8854,8 @@ header.top-site .profile-wrapper .iuic-social-sign p {
   text-align: center; }
 
 header.top-site .profile-wrapper .iuic-social-sign .btn, header.top-site .profile-wrapper .iuic-social-sign .login-by-mail {
-  margin-left: 12px;
   padding: 0;
-  width: 25px;
+  width: 50px;
   height: 25px;
   border-radius: 5px;
   font-size: 18px;
@@ -9645,6 +9644,9 @@ header.top-site .city-header .city-header-col.second ul.links {
   font-weight: 500;
   color: #00525e;
   background: #05c3c3; }
+
+.nav-wrapper .navbar-right {
+  margin-right: 0; }
 
 .nav-wrapper .affix {
   width: 100%;
@@ -15811,7 +15813,7 @@ body[class^="adminsinfo"] {
   .offset-40px {
     margin: 0 40px; } }
 .container__rubrificator {
-  padding: 0; }
+  padding: 0 0 0 15px; }
 
 .rubrificator {
   border: 1px solid #ddd;
@@ -16932,7 +16934,7 @@ html,
 .town_page_audio_post .main-article__picture {
   margin: 0 10px 0 0;
   position: initial;
-  width: 30%; }
+  width: 187px; }
 .town_page_audio_post .main-article__address {
   color: #054d50;
   margin: 23px 0; }
