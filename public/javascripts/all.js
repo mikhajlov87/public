@@ -13461,6 +13461,9 @@ $('.main-article__play-button').on('click', function () {
         audio.pause();
     }
 });
+$(document).ready(function () {
+    $('.profile-wrapper').animate({'right': 0 }, 750);
+});
 $('.panel.rubrificator__panel').on('click', function () {
     var $panel = $('.panel.rubrificator__panel');
     $panel.find('h4.heading.tab__heading').removeClass('active');
@@ -13503,6 +13506,14 @@ $('#main-search').on('mouseover', function () {
     default:
       $search.attr('placeholder', 'Искать специалистов');
   }
+});
+var socialSign = $('.iuic-social-sign');
+
+socialSign.find('.btn-link').on('click', function (event) {
+    var url = $(this).attr("href");
+    event.preventDefault();
+    socialSign.animate({ 'right': '-150px' }, 750);
+    window.location.href = url;
 });
 $(document).ready(function () {
   var infoBrowser = navigator.userAgent + '', 

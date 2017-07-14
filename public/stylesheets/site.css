@@ -8591,9 +8591,8 @@ header.top-site .owl-carousel {
 header.top-site .owl-carousel .title {
   position: absolute;
   top: 64px;
-  left: 24%;
+  left: 60px;
   width: 217px;
-  margin-left: -120px;
   z-index: 2;
   text-align: center; }
 
@@ -9644,6 +9643,42 @@ header.top-site .city-header .city-header-col.second ul.links {
   font-weight: 500;
   color: #00525e;
   background: #05c3c3; }
+
+.news_page {
+  overflow-x: hidden; }
+
+.top-alert {
+  height: 90px; }
+
+.top-alert .iuic-social-sign {
+  background: rgba(0, 0, 0, 0.2) url(http://iuic.info/assets/overlay-pattern.png);
+  border: 1px solid #054d50;
+  border-radius: 4px;
+  color: #fcfafa;
+  padding: 5px 10px;
+  position: absolute;
+  right: 15px; }
+
+.top-alert .iuic-social-sign p {
+  font-weight: 500;
+  margin: 0;
+  text-decoration: underline; }
+
+.top-alert .iuic-social-sign .btn, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail {
+  border-radius: 4px;
+  color: #fcfafa;
+  font-size: 18px;
+  height: 25px;
+  padding: 0;
+  width: 50px; }
+  .top-alert .iuic-social-sign .btn:hover, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:hover, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:hover, .top-alert .iuic-social-sign .btn:active, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:active, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:active {
+    background-color: #00525e;
+    border: 1px solid #fcfafa;
+    color: #fcfafa; }
+
+.top-alert .iuic-social-sign hr {
+  color: #fcfafa;
+  margin: 4px 0 0 0; }
 
 .nav-wrapper .navbar-right {
   margin-right: 0; }
@@ -16942,3 +16977,18 @@ html,
   color: #9FADB4;
   display: block;
   margin: 23px 0; }
+.town_page_audio_post .picture:hover .picture__img {
+  background-color: #e53935; }
+
+.news_page .thumbnail .element .post {
+  overflow: hidden; }
+.news_page .thumbnail.element.post .play-button__background {
+  background: url(../images/play-button-red.png) no-repeat center center; }
+.news_page .thumbnail.post .article-category {
+  background-color: #e53935;
+  color: #fff; }
+.news_page .text-container {
+  border: 1px solid #e53935; }
+
+.news_page_in header.top-site .profile-wrapper {
+  right: -150px; }
