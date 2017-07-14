@@ -9657,7 +9657,7 @@ header.top-site .city-header .city-header-col.second ul.links {
   color: #fcfafa;
   padding: 5px 10px;
   position: absolute;
-  right: 15px; }
+  right: -150px; }
 
 .top-alert .iuic-social-sign p {
   font-weight: 500;
@@ -16984,11 +16984,11 @@ html,
   overflow: hidden; }
 .news_page .thumbnail.element.post .play-button__background {
   background: url(../images/play-button-red.png) no-repeat center center; }
-.news_page .thumbnail.post .article-category {
+.news_page .thumbnail.post .article-category__red {
   background-color: #e53935;
   color: #fff; }
 .news_page .text-container {
   border: 1px solid #e53935; }
 
 .news_page_in header.top-site .profile-wrapper {
-  right: -150px; }
+  right: -180px; }

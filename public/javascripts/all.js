@@ -13462,7 +13462,18 @@ $('.main-article__play-button').on('click', function () {
     }
 });
 $(document).ready(function () {
-    $('.profile-wrapper').animate({'right': 0 }, 750);
+    var logOut = $('.log-out'),
+        profile = $('.profile-wrapper');
+
+    setTimeout(function () {
+        profile.animate({'right': 0 }, 500);
+    }, 1000);
+
+    logOut.on('click', function (event) {
+        event.preventDefault();
+        profile.animate({'right': '-180px' }, 500);
+        window.location.href = $(this).attr("href");
+    });
 });
 $('.panel.rubrificator__panel').on('click', function () {
     var $panel = $('.panel.rubrificator__panel');
@@ -13507,13 +13518,19 @@ $('#main-search').on('mouseover', function () {
       $search.attr('placeholder', 'Искать специалистов');
   }
 });
-var socialSign = $('.iuic-social-sign');
+$(document).ready(function () {
+    var socialSign = $('.iuic-social-sign');
 
-socialSign.find('.btn-link').on('click', function (event) {
-    var url = $(this).attr("href");
-    event.preventDefault();
-    socialSign.animate({ 'right': '-150px' }, 750);
-    window.location.href = url;
+    setTimeout(function () {
+        socialSign.animate({ 'right': '15px' }, 500);
+    }, 1000);
+
+    socialSign.find('.btn-link').on('click', function (event) {
+        var url = $(this).attr("href");
+        event.preventDefault();
+        socialSign.animate({ 'right': '-150px' }, 500);
+        window.location.href = url;
+    });
 });
 $(document).ready(function () {
   var infoBrowser = navigator.userAgent + '', 
