@@ -9029,18 +9029,18 @@ header.top-site .list-group.country-info-view .list-group-item .title {
     float: left;
     position: initial; }
 
-.town_page_news .dropdown-img, .town_page_news_post .dropdown-img {
+.town_page_news .dropdown-img, .town_page_news_post .dropdown-img, .town_page_news_post_logged_in .dropdown-img {
   height: 20px;
   margin-right: 5px;
   width: 20px; }
-.town_page_news .top-site button.btn.dropdown-toggle.top.text-left, .town_page_news_post .top-site button.btn.dropdown-toggle.top.text-left, .town_page_news header.top-site .profile-wrapper button.dropdown-toggle.top.text-left.login-by-mail, .town_page_news_post header.top-site .profile-wrapper button.dropdown-toggle.top.text-left.login-by-mail {
+.town_page_news .top-site button.btn.dropdown-toggle.top.text-left, .town_page_news_post .top-site button.btn.dropdown-toggle.top.text-left, .town_page_news_post_logged_in .top-site button.btn.dropdown-toggle.top.text-left, .town_page_news header.top-site .profile-wrapper button.dropdown-toggle.top.text-left.login-by-mail, .town_page_news_post header.top-site .profile-wrapper button.dropdown-toggle.top.text-left.login-by-mail, .town_page_news_post_logged_in header.top-site .profile-wrapper button.dropdown-toggle.top.text-left.login-by-mail {
   text-align: left; }
-.town_page_news .top-site .profile-wrapper .btn.make-profile, .town_page_news_post .top-site .profile-wrapper .btn.make-profile, .town_page_news header.top-site .profile-wrapper .make-profile.login-by-mail, .town_page_news_post header.top-site .profile-wrapper .make-profile.login-by-mail {
+.town_page_news .top-site .profile-wrapper .btn.make-profile, .town_page_news_post .top-site .profile-wrapper .btn.make-profile, .town_page_news_post_logged_in .top-site .profile-wrapper .btn.make-profile, .town_page_news header.top-site .profile-wrapper .make-profile.login-by-mail, .town_page_news_post header.top-site .profile-wrapper .make-profile.login-by-mail, .town_page_news_post_logged_in header.top-site .profile-wrapper .make-profile.login-by-mail {
   padding: 30px 5px; }
-.town_page_news .top-site .country-city-viewer .country-info-wrapper, .town_page_news_post .top-site .country-city-viewer .country-info-wrapper {
+.town_page_news .top-site .country-city-viewer .country-info-wrapper, .town_page_news_post .top-site .country-city-viewer .country-info-wrapper, .town_page_news_post_logged_in .top-site .country-city-viewer .country-info-wrapper {
   min-width: 330px;
   margin-left: -175px; }
-  .town_page_news .top-site .country-city-viewer .country-info-wrapper .countries-wrapper, .town_page_news_post .top-site .country-city-viewer .country-info-wrapper .countries-wrapper {
+  .town_page_news .top-site .country-city-viewer .country-info-wrapper .countries-wrapper, .town_page_news_post .top-site .country-city-viewer .country-info-wrapper .countries-wrapper, .town_page_news_post_logged_in .top-site .country-city-viewer .country-info-wrapper .countries-wrapper {
     float: left;
     position: initial; }
 
@@ -9062,7 +9062,7 @@ header.top-site .list-group.country-info-view .list-group-item .title {
     float: left;
     position: initial; }
 
-.town_page_news_post .top-site .profile-wrapper .btn.make-profile, .town_page_news_post header.top-site .profile-wrapper .make-profile.login-by-mail {
+.town_page_news_post .top-site .profile-wrapper .btn.make-profile, .town_page_news_post_logged_in .top-site .profile-wrapper .btn.make-profile, .town_page_news_post header.top-site .profile-wrapper .make-profile.login-by-mail, .town_page_news_post_logged_in header.top-site .profile-wrapper .make-profile.login-by-mail {
   padding: 30px 5px; }
 
 .town_page_audio_post .top-site .profile-wrapper .btn.make-profile, .town_page_audio_post header.top-site .profile-wrapper .make-profile.login-by-mail {
@@ -9651,7 +9651,7 @@ header.top-site .city-header .city-header-col.second ul.links {
   height: 90px; }
 
 .top-alert .iuic-social-sign {
-  background: rgba(0, 0, 0, 0.2) url(http://iuic.info/assets/overlay-pattern.png);
+  background: #054d50;
   border: 1px solid #054d50;
   border-radius: 4px;
   color: #fcfafa;
@@ -9661,8 +9661,7 @@ header.top-site .city-header .city-header-col.second ul.links {
 
 .top-alert .iuic-social-sign p {
   font-weight: 500;
-  margin: 0;
-  text-decoration: underline; }
+  margin: 0; }
 
 .top-alert .iuic-social-sign .btn, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail {
   border-radius: 4px;
@@ -9675,10 +9674,6 @@ header.top-site .city-header .city-header-col.second ul.links {
     background-color: #00525e;
     border: 1px solid #fcfafa;
     color: #fcfafa; }
-
-.top-alert .iuic-social-sign hr {
-  color: #fcfafa;
-  margin: 4px 0 0 0; }
 
 .nav-wrapper .navbar-right {
   margin-right: 0; }
@@ -15956,16 +15951,16 @@ body[class^="adminsinfo"] {
 .top-alert {
   background: #d9edf7; }
 
-.town_page_news .panel.rubrificator__panel h4.heading.tab__heading.active, .town_page_news_post .panel.rubrificator__panel h4.heading.tab__heading.active {
+.town_page_news .panel.rubrificator__panel h4.heading.tab__heading.active, .town_page_news_post .panel.rubrificator__panel h4.heading.tab__heading.active, .town_page_news_post_logged_in .panel.rubrificator__panel h4.heading.tab__heading.active {
   background-color: #fff;
   color: #054d50; }
-  .town_page_news .panel.rubrificator__panel h4.heading.tab__heading.active .heading__icon, .town_page_news_post .panel.rubrificator__panel h4.heading.tab__heading.active .heading__icon {
+  .town_page_news .panel.rubrificator__panel h4.heading.tab__heading.active .heading__icon, .town_page_news_post .panel.rubrificator__panel h4.heading.tab__heading.active .heading__icon, .town_page_news_post_logged_in .panel.rubrificator__panel h4.heading.tab__heading.active .heading__icon {
     color: inherit; }
-  .town_page_news .panel.rubrificator__panel h4.heading.tab__heading.active .control-link.heading__control-link, .town_page_news_post .panel.rubrificator__panel h4.heading.tab__heading.active .control-link.heading__control-link {
+  .town_page_news .panel.rubrificator__panel h4.heading.tab__heading.active .control-link.heading__control-link, .town_page_news_post .panel.rubrificator__panel h4.heading.tab__heading.active .control-link.heading__control-link, .town_page_news_post_logged_in .panel.rubrificator__panel h4.heading.tab__heading.active .control-link.heading__control-link {
     color: inherit; }
-.town_page_news .icon.heading__icon, .town_page_news_post .icon.heading__icon {
+.town_page_news .icon.heading__icon, .town_page_news_post .icon.heading__icon, .town_page_news_post_logged_in .icon.heading__icon {
   width: 20px; }
-  .town_page_news .icon.heading__icon > img, .town_page_news_post .icon.heading__icon > img {
+  .town_page_news .icon.heading__icon > img, .town_page_news_post .icon.heading__icon > img, .town_page_news_post_logged_in .icon.heading__icon > img {
     height: auto;
     max-width: 100%; }
 
@@ -16236,22 +16231,22 @@ body[class^="adminsinfo"] {
     border-color: #adadad;
     background-color: #ADECEC; }
 
-.town_page_news_post .share__button {
+.town_page_news_post .share__button, .town_page_news_post_logged_in .share__button {
   color: #999; }
-  .town_page_news_post .share__button:hover, .town_page_news_post .share__button:active {
+  .town_page_news_post .share__button:hover, .town_page_news_post_logged_in .share__button:hover, .town_page_news_post .share__button:active, .town_page_news_post_logged_in .share__button:active {
     transform: translateY(-4px);
     outline-offset: -1px; }
-.town_page_news_post .share .social-links__link--twitter:hover {
+.town_page_news_post .share .social-links__link--twitter:hover, .town_page_news_post_logged_in .share .social-links__link--twitter:hover {
   color: #1da1f2; }
-.town_page_news_post .share .social-links__link--google:hover {
+.town_page_news_post .share .social-links__link--google:hover, .town_page_news_post_logged_in .share .social-links__link--google:hover {
   color: #dc4e41; }
-.town_page_news_post .share .social-links__link--vk:hover {
+.town_page_news_post .share .social-links__link--vk:hover, .town_page_news_post_logged_in .share .social-links__link--vk:hover {
   color: #6383a8; }
-.town_page_news_post .share .social-links__link--facebook:hover {
+.town_page_news_post .share .social-links__link--facebook:hover, .town_page_news_post_logged_in .share .social-links__link--facebook:hover {
   color: #3b5998; }
-.town_page_news_post .share .social-links__link--ok:hover {
+.town_page_news_post .share .social-links__link--ok:hover, .town_page_news_post_logged_in .share .social-links__link--ok:hover {
   color: #d57819; }
-.town_page_news_post .share .social-links__link--pinterest:hover {
+.town_page_news_post .share .social-links__link--pinterest:hover, .town_page_news_post_logged_in .share .social-links__link--pinterest:hover {
   color: #cb2027; }
 
 .similar-news__title {
