@@ -9652,27 +9652,33 @@ header.top-site .city-header .city-header-col.second ul.links {
 
 .top-alert .iuic-social-sign {
   background: #054d50;
-  border: 1px solid #054d50;
+  border: 2px solid #000;
   border-radius: 4px;
+  box-shadow: 0 0 1px 1px #fcfafa inset;
   color: #fcfafa;
   padding: 5px 10px;
   position: absolute;
   right: -150px; }
 
 .top-alert .iuic-social-sign p {
+  color: #000;
   font-weight: 500;
-  margin: 0; }
+  margin: 0;
+  text-shadow: 0 0 10px #fff; }
 
 .top-alert .iuic-social-sign .btn, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail {
   border-radius: 4px;
   color: #fcfafa;
   font-size: 18px;
   height: 25px;
+  line-height: 25px;
   padding: 0;
+  text-shadow: 2px 1px 1px #000;
   width: 50px; }
   .top-alert .iuic-social-sign .btn:hover, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:hover, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:hover, .top-alert .iuic-social-sign .btn:active, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:active, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:active {
     background-color: #00525e;
-    border: 1px solid #fcfafa;
+    box-shadow: 0 0 2px 0 #fcfafa inset;
+    border: 1px solid #000;
     color: #fcfafa; }
 
 .nav-wrapper .navbar-right {
