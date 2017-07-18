@@ -9651,38 +9651,32 @@ header.top-site .city-header .city-header-col.second ul.links {
   height: 90px; }
 
 .top-alert .iuic-social-sign {
-  background: #03777a;
-  border-top: 2px solid #fcfafa;
-  border-right: 3px solid #f90606;
-  border-bottom: 2px solid #000;
-  border-left: 3px solid #f9e206;
-  border-radius: 4px;
-  color: #fcfafa;
   padding: 5px 10px;
   position: absolute;
   right: -150px; }
 
 .top-alert .iuic-social-sign p {
-  color: #fcfafa;
+  color: #054d50;
   font-weight: 500;
-  margin: 0;
-  text-shadow: 2px 1px 1px #000; }
+  margin: 0; }
 
 .top-alert .iuic-social-sign .btn, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail {
   border-radius: 4px;
-  color: #fcfafa;
+  color: #054d50;
   font-size: 18px;
   height: 25px;
   line-height: 23px;
+  opacity: 0.5;
   padding: 0;
-  text-shadow: 2px 1px 1px #000;
   width: 50px; }
   .top-alert .iuic-social-sign .btn:hover, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:hover, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:hover, .top-alert .iuic-social-sign .btn:active, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:active, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:active {
-    background-color: #fcfafa;
-    box-shadow: 2px 1px 1px 0 #000 inset;
-    border: 1px solid #fcfafa;
-    color: #03777a;
-    text-shadow: 2px 1px 1px #000; }
+    background: #cdf3f3;
+    border: 1px solid #054d50;
+    opacity: 1; }
+    .top-alert .iuic-social-sign .btn:hover.btn-link--facebook, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:hover.btn-link--facebook, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:hover.btn-link--facebook, .top-alert .iuic-social-sign .btn:active.btn-link--facebook, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:active.btn-link--facebook, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:active.btn-link--facebook {
+      color: #3b5998; }
+    .top-alert .iuic-social-sign .btn:hover.btn-link--vk, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:hover.btn-link--vk, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:hover.btn-link--vk, .top-alert .iuic-social-sign .btn:active.btn-link--vk, .top-alert .iuic-social-sign header.top-site .profile-wrapper .login-by-mail:active.btn-link--vk, header.top-site .profile-wrapper .top-alert .iuic-social-sign .login-by-mail:active.btn-link--vk {
+      color: #6383a8; }
 
 .nav-wrapper .navbar-right {
   margin-right: 0; }
